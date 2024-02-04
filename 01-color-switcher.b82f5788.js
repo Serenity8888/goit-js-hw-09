@@ -1,2 +1,0 @@
-document.addEventListener("DOMContentLoaded",(()=>{const t=document.getElementById("startBtn"),e=document.getElementById("stopBtn");let d;t.addEventListener("click",(()=>{t.disabled=!0,e.disabled=!1,d=setInterval((()=>{document.body.style.backgroundColor=`#${Math.floor(16777215*Math.random()).toString(16).padStart(6,"0")}`}),1e3)})),e.addEventListener("click",(()=>{t.disabled=!1,e.disabled=!0,clearInterval(d)}))}));
-//# sourceMappingURL=01-color-switcher.b82f5788.js.map
